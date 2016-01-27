@@ -1,7 +1,12 @@
 # My Gulp Webapp Starter
----
+===
 
-Last Updated: January 27, 2016
+About
+---
+Moves and compiles src files to app/ folder, and runs a Browser Sync server on **localhost:6112**
+
+Instructions
+---
 
 1. git clone https://github.com/robinsonbd2/myGulp MyFirstGulpWebapp
 
@@ -11,3 +16,10 @@ Last Updated: January 27, 2016
 
 To run:
 > gulp
+
+TODO
+---
+1. Add sourcemaps/img maps
+2. Add Gulp project variants as github branches.
+
+*Last Updated: January 27, 2016*
