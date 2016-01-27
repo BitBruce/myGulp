@@ -1,0 +1,69 @@
+/* Icons - Font Awesome */
+@import "font-awesome/font-awesome";
+
+%icon-first {
+	@extend .fa;
+	@extend .fa-angle-double-left;
+}
+
+%icon-prev {
+	//@extend .glyphicon;
+	//@extend .glyphicon-menu-left;
+	@extend .fa;
+	@extend .fa-angle-left;
+}
+
+%icon-next {
+	@extend .fa;
+	@extend .fa-angle-right;
+}
+
+%icon-last {
+	@extend .fa;
+	@extend .fa-angle-double-right;
+}
+
+%icon-circle-arrow-right {
+	@extend .fa;
+	@extend .fa-arrow-circle-o-right;
+}
+
+%icon-facebook {
+	@extend .fa;
+	@extend .fa-facebook;
+}
+
+%icon-linkedin {
+	@extend .fa;
+	@extend .fa-linkedin;
+}
+
+%icon-twitter {
+	@extend .fa;
+	@extend .fa-twitter;
+}
+
+%icon-youtube {
+	@extend .glyphicon;
+	@extend .glyphicon-play;
+}
+
+%icon-google {
+	@extend .fa;
+	@extend .fa-google;
+}
+
+%icon-instagram {
+	@extend .fa;
+	@extend .fa-instagram;
+}
+
+%icon-connect {
+	@extend .fa;
+	@extend .fa-comment;
+}
+
+%icon-email {
+	@extend .fa;
+	@extend .fa-envelope;
+}
