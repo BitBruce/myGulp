@@ -54,6 +54,7 @@ gulp.task('serve', function() {
   gulp.watch('src/js/*.js', ['scripts']);
   gulp.watch('src/img/*', ['images']);
   gulp.watch('src/fonts/*', ['fonts']);
+  gulp.watch('src/html/*', ['html']);
 
   // Create BrowserSync server
   browserSync.init({
@@ -76,7 +77,8 @@ gulp.task('clean', function() {
 // Html
 gulp.task('html', function() {
   return gulp.src("src/html/*.html")
-      .pipe(gulp.dest('app/html'));
+      .pipe(gulp.dest('app/html'))
+      .pipe(browserSync.stream());
 });
 
 // Fonts
