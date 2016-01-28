@@ -1,9 +1,8 @@
 # My Gulp Webapp Starter
-===
 
 About
 ---
-Moves and compiles src files to app/ folder, and runs a Browser Sync server on **localhost:6112**
+Moves and compiles src files to target/ folder, and runs a Browser Sync server on **localhost:6112**
 
 Instructions
 ---
